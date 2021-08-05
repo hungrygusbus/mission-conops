@@ -54,11 +54,9 @@ elements:
       accelerometer & temperature sensor data
     derivedFrom: []
 package:
-  name: odu-cga-mission-conops
+  name: sealion
   version: 0.1.0
-  description: >-
-    Old Dominion University (ODU) & Coast Guard Academy (CGA) CubeSat Misssion
-    Concept of Operations (ConOps)
+  description: SeaLion Mission Concept of Operations (ConOps)
   keywords:
     - cubesat
     - mission-conops
@@ -71,7 +69,7 @@ package:
     js-yaml: ^3.12.0
     liquidjs: ^6.1.1
     minimist: ^1.2.0
-generationDate: 8/4/2021
+generationDate: 8/5/2021
 1-StakeholderNeeds:
   - *ref_0
   - *ref_1

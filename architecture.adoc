@@ -1,10 +1,19 @@
-= Old Dominion University (ODU) & Coast Guard Academy (CGA) CubeSat Misssion Concept of Operations (ConOps)
+= SeaLion Mission Concept of Operations (ConOps)
 :revnumber: v0.1.0
 :toc: left
 
+ifndef::backend-pdf[]
+image:https://img.shields.io/badge/License-MIT-yellow.svg[MIT License, link=https://opensource.org/licenses/MIT]
+image:https://img.shields.io/badge/Contribute%20on-GitHub-orange[Contribute on GitHub, link=https://github.com/ODU-CGA-CubeSat/mission-conops.git]
+image:https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square[PRs Welcome, link=http://makeapullrequest.com]
+image:https://img.shields.io/badge/Download%20-PDF-blue[Download PDF, link=https://ODU-CGA-CubeSat.github.io/mission-conops/mission-conops.pdf]
+endif::[]
+
+<<<
+
 == Stakeholder Needs
  
-The Old Dominion University (ODU) & Coast Guard Academy (CGA) CubeSat Misssion Concept of Operations (ConOps) is guided by a series of stakeholder needs, listed below.
+The SeaLion Mission Concept of Operations (ConOps) is guided by a series of stakeholder needs, listed below.
 
 
 .Stakeholder Need 1.1: Primary Mission Objective 1/2
@@ -50,7 +59,7 @@ The SeaLion shall verify DeCS in-orbit behavior performance via accelerometer & 
 
 == User Stories
 
-The Old Dominion University (ODU) & Coast Guard Academy (CGA) CubeSat Misssion Concept of Operations (ConOps)'s stakeholder needs are then used to identify a series of user stories which then lead to design decisions captured in data structure and activity definitions.
+The SeaLion Mission Concept of Operations (ConOps)'s stakeholder needs are then used to identify a series of user stories which then lead to design decisions captured in data structure and activity definitions.
 
 
 
