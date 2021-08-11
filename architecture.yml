@@ -2,54 +2,57 @@ elements:
   0-References/1-AX.25_Specification.yml: &ref_0
     title: AX.25 Link Access Protocol for Amateur Packet Radio Version 2.2
     url: http://www.tapr.org/pdf/AX25.2.2.pdf
-  1-StakeholderNeeds/1.1-Primary_Mission_Objective-A1.yml: &ref_1
+  0-References/2-CubeSat_Design_Specification_Rev._13.yml: &ref_1
+    title: CubeSat Design Specification Rev. 13
+    url: https://www.cubesat.org/s/cds_rev13_final2.pdf
+  1-StakeholderNeeds/1.1-Primary_Mission_Objective-A1.yml: &ref_2
     id: 1.1
     name: Primary Mission Objective A1
     statement: >-
       The SeaLion mission shall establish UHF communication link with Virginia
       ground station
     derivedFrom: []
-  1-StakeholderNeeds/1.2-Primary_Mission_Objective-A2.yml: &ref_2
+  1-StakeholderNeeds/1.2-Primary_Mission_Objective-A2.yml: &ref_3
     id: 1.2
     name: Primary Mission Objective A2
     statement: >-
       The SeaLion mission shall establish S-Band communication link with MC3
       ground station
     derivedFrom: []
-  1-StakeholderNeeds/2.1-Secondary_Mission_Objective-B1.yml: &ref_3
+  1-StakeholderNeeds/2.1-Secondary_Mission_Objective-B1.yml: &ref_4
     id: 2.1
     name: Secondary Mission Objective B1
     statement: >-
       The SeaLion mission shall provide a means to validate an impedance probe
       in-orbit
     derivedFrom: []
-  1-StakeholderNeeds/2.2-Secondary_Mission_Objective-B2.yml: &ref_4
+  1-StakeholderNeeds/2.2-Secondary_Mission_Objective-B2.yml: &ref_5
     id: 2.2
     name: Secondary Mission Objective B2
     statement: >-
       The SeaLion mission shall provide a means to validate a V-Infrared Sensor
       (VIR-S) in-orbit
     derivedFrom: []
-  1-StakeholderNeeds/2.3-Secondary_Mission_Objective-B3.yml: &ref_5
+  1-StakeholderNeeds/2.3-Secondary_Mission_Objective-B3.yml: &ref_6
     id: 2.3
     name: Secondary Mission Objective B3
     statement: >-
       The SeaLion mission shall provide a means to validate a deployable
       composite structure (DeCS) in-orbit
     derivedFrom: []
-  1-StakeholderNeeds/3.1-Tertiary_Mission_Objective-C1.yml: &ref_6
+  1-StakeholderNeeds/3.1-Tertiary_Mission_Objective-C1.yml: &ref_7
     id: 3.1
     name: Tertiary Mission Objective C1
     statement: The SeaLion mission shall qualify a newly developed antenna
     derivedFrom: []
-  1-StakeholderNeeds/3.2-Tertiary_Mission_Objective-C2.yml: &ref_7
+  1-StakeholderNeeds/3.2-Tertiary_Mission_Objective-C2.yml: &ref_8
     id: 3.2
     name: Tertiary Mission Objective C2
     statement: >-
       The SeaLion mission shall qualify a CubeSat bus architecture for very-low
       Earth orbit (VLEO)
     derivedFrom: []
-  1-StakeholderNeeds/3.3-Tertiary_Mission_Objective-C3.yml: &ref_8
+  1-StakeholderNeeds/3.3-Tertiary_Mission_Objective-C3.yml: &ref_9
     id: 3.3
     name: Tertiary Mission Objective C3
     statement: >-
@@ -75,8 +78,8 @@ package:
 generationDate: 8/11/2021
 0-References:
   - *ref_0
-1-StakeholderNeeds:
   - *ref_1
+1-StakeholderNeeds:
   - *ref_2
   - *ref_3
   - *ref_4
@@ -84,3 +87,4 @@ generationDate: 8/11/2021
   - *ref_6
   - *ref_7
   - *ref_8
+  - *ref_9
