@@ -1,5 +1,5 @@
 = SeaLion Mission Concept of Operations (ConOps)
-:revnumber: v0.1.0
+:revnumber: v0.2.0
 :toc: left
 
 ifndef::backend-pdf[]
@@ -24,6 +24,11 @@ The SeaLion mission shall establish UHF communication link with Virginia ground 
 .Stakeholder Need 1.2: Primary Mission Objective A2
 ****
 The SeaLion mission shall establish S-Band communication link with MC3 ground station
+**** 
+
+.Stakeholder Need 1.3: Primary Mission Objective A3
+****
+The SeaLion mission shall successfully transmit “mission data” defined above to ground stations on the Earth.
 **** 
 
 .Stakeholder Need 2.1: Secondary Mission Objective B1
