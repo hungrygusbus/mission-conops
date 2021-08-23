@@ -1,5 +1,5 @@
 = SeaLion Mission Concept of Operations (ConOps)
-:revnumber: v0.2.0
+:revnumber: v0.3.0
 :toc: left
 
 ifndef::backend-pdf[]
@@ -29,6 +29,11 @@ The SeaLion mission shall establish S-Band communication link with MC3 ground st
 .Stakeholder Need 1.3: Primary Mission Objective A3
 ****
 The SeaLion mission shall successfully transmit “mission data” defined above to ground stations on the Earth.
+**** 
+
+.Stakeholder Need 1.4: Primary Mission Objective A4
+****
+The SeaLion mission shall adhere to CubeSat standards as per CDS Rev. 13
 **** 
 
 .Stakeholder Need 2.1: Secondary Mission Objective B1
