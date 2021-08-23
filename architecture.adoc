@@ -1,5 +1,5 @@
 = SeaLion Mission Concept of Operations (ConOps)
-:revnumber: v0.3.0
+:revnumber: v0.4.0
 :toc: left
 
 ifndef::backend-pdf[]
@@ -70,6 +70,15 @@ The SeaLion shall verify DeCS in-orbit behavior performance via accelerometer & 
 == User Stories
 
 The SeaLion Mission Concept of Operations (ConOps)'s stakeholder needs are then used to identify a series of user stories which then lead to design decisions captured in data structure and activity definitions.
+
+
+=== User Story 1: Ping Satellite
+
+****
+As a *Ground Station Operator* I want to *Ping satellite* so that I can *Establish communication link with satellite*.
+****
+
+*Example:* Ping the satellite in order to establish UHF communication link with Virginia ground station
 
 
 

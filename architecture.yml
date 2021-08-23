@@ -79,9 +79,20 @@ elements:
       The SeaLion shall verify DeCS in-orbit behavior performance via
       accelerometer & temperature sensor data
     derivedFrom: []
+  2-UserStories/1-PingSatellite.yml: &ref_14
+    id: 1
+    name: Ping Satellite
+    actor: Ground Station Operator
+    behavior: Ping satellite
+    rationale: Establish communication link with satellite
+    derivedFrom:
+      - 1-StakeholderNeeds/1.1-Primary_Mission_Objective-A1.yml
+    example: >-
+      Ping the satellite in order to establish UHF communication link with
+      Virginia ground station
 package:
   name: sealion
-  version: 0.3.0
+  version: 0.4.0
   description: SeaLion Mission Concept of Operations (ConOps)
   keywords:
     - cubesat
@@ -112,3 +123,5 @@ generationDate: 8/23/2021
   - *ref_11
   - *ref_12
   - *ref_13
+2-UserStories:
+  - *ref_14
