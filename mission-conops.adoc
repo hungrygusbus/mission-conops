@@ -1,4 +1,5 @@
 = SeaLion Mission Concept of Operations (ConOps)
+:doc-name: mission-conops.adoc
 :revnumber: v0.4.0
 :toc: left
 
@@ -15,55 +16,93 @@ endif::[]
 The SeaLion Mission Concept of Operations (ConOps) is guided by a series of stakeholder needs, listed below.
 
 
-.Stakeholder Need 1.1: Primary Mission Objective A1
+=== 1.1: Primary Mission Objective A1
 ****
 The SeaLion mission shall establish UHF communication link with Virginia ground station
 **** 
 
-.Stakeholder Need 1.2: Primary Mission Objective A2
+
+
+
+=== 1.2: Primary Mission Objective A2
 ****
 The SeaLion mission shall establish S-Band communication link with MC3 ground station
 **** 
 
-.Stakeholder Need 1.3: Primary Mission Objective A3
+
+
+
+=== 1.3: Primary Mission Objective A3
 ****
 The SeaLion mission shall successfully transmit “mission data” defined above to ground stations on the Earth.
 **** 
 
-.Stakeholder Need 1.4: Primary Mission Objective A4
+
+
+
+=== 1.4: Primary Mission Objective A4
 ****
 The SeaLion mission shall adhere to CubeSat standards as per CDS Rev. 13
 **** 
 
-.Stakeholder Need 2.1: Secondary Mission Objective B1
+
+==== *Reference:*
+
+
+
+* https://www.cubesat.org/s/cds_rev13_final2.pdf[CubeSat Design Specification Rev. 13]
+
+
+
+
+
+=== 2.1: Secondary Mission Objective B1
 ****
 The SeaLion mission shall provide a means to validate an impedance probe in-orbit
 **** 
 
-.Stakeholder Need 2.2: Secondary Mission Objective B2
+
+
+
+=== 2.2: Secondary Mission Objective B2
 ****
 The SeaLion mission shall provide a means to validate a V-Infrared Sensor (VIR-S) in-orbit
 **** 
 
-.Stakeholder Need 2.3: Secondary Mission Objective B3
+
+
+
+=== 2.3: Secondary Mission Objective B3
 ****
 The SeaLion mission shall provide a means to validate a deployable composite structure (DeCS) in-orbit
 **** 
 
-.Stakeholder Need 3.1: Tertiary Mission Objective C1
+
+
+
+=== 3.1: Tertiary Mission Objective C1
 ****
 The SeaLion mission shall qualify a newly developed antenna
 **** 
 
-.Stakeholder Need 3.2: Tertiary Mission Objective C2
+
+
+
+=== 3.2: Tertiary Mission Objective C2
 ****
 The SeaLion mission shall qualify a CubeSat bus architecture for very-low Earth orbit (VLEO)
 **** 
 
-.Stakeholder Need 3.3: Tertiary Mission Objective C3
+
+
+
+=== 3.3: Tertiary Mission Objective C3
 ****
 The SeaLion shall verify DeCS in-orbit behavior performance via accelerometer & temperature sensor data
 **** 
+
+
+
 
 
 == User Stories
@@ -71,13 +110,30 @@ The SeaLion shall verify DeCS in-orbit behavior performance via accelerometer & 
 The SeaLion Mission Concept of Operations (ConOps)'s stakeholder needs are then used to identify a series of user stories which then lead to design decisions captured in data structure and activity definitions.
 
 
-=== User Story 1: Ping Satellite
+=== 1: Ping Satellite
 
 ****
 As a *Ground Station Operator* I want to *Ping satellite* so that I can *Establish communication link with satellite*.
 ****
 
-*Example:* Ping the satellite in order to establish UHF communication link with Virginia ground station
+==== Example:
 
+Ping the satellite in order to establish UHF communication link with Virginia ground station
+
+
+==== *Derived From:*
+
+
+
+
+* xref:{doc-name}#_1_1_primary_mission_objective_a1[Primary Mission Objective A1]
+
+
+
+
+
+
+== Data Structures
+This section covers each data structure type in the *SeaLion Mission Concept of Operations (ConOps)*.
 
 
