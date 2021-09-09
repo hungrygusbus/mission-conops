@@ -67,7 +67,9 @@ elements:
   1-StakeholderNeeds/3.1-Tertiary_Mission_Objective-C1.yml: &ref_12
     id: 3.1
     name: Tertiary Mission Objective C1
-    statement: The SeaLion mission shall qualify a newly developed antenna
+    statement: >-
+      The SeaLion mission shall qualify on-orbit the deployment and functioning
+      of the newly developed UHF antenna system and its deployment.
     derivedFrom: []
   1-StakeholderNeeds/3.2-Tertiary_Mission_Objective-C2.yml: &ref_13
     id: 3.2
@@ -96,7 +98,7 @@ elements:
       Virginia ground station
   4-Components/component.yaml: &ref_16
     name: sealion
-    version: 0.4.0
+    version: 0.4.1
     description: SeaLion Mission Concept of Operations (ConOps)
     license: MIT
     author: Sean Marquez <capsulecorplab@gmail.com> & contributors
@@ -132,7 +134,7 @@ elements:
     tools: {}
 package:
   name: sealion
-  version: 0.4.0
+  version: 0.4.1
   description: SeaLion Mission Concept of Operations (ConOps)
   keywords:
     - cubesat

@@ -1,6 +1,6 @@
 = SeaLion Mission Concept of Operations (ConOps)
 :doc-name: mission-conops.adoc
-:revnumber: v0.4.0
+:revnumber: v0.4.1
 :toc: left
 
 ifndef::backend-pdf[]
@@ -82,7 +82,7 @@ The SeaLion mission shall provide a means to validate a deployable composite str
 
 === 3.1: Tertiary Mission Objective C1
 ****
-The SeaLion mission shall qualify a newly developed antenna
+The SeaLion mission shall qualify on-orbit the deployment and functioning of the newly developed UHF antenna system and its deployment.
 **** 
 
 
