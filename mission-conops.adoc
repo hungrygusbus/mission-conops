@@ -1,6 +1,6 @@
 = SeaLion Mission Concept of Operations (ConOps)
 :doc-name: mission-conops.adoc
-:revnumber: v0.4.1
+:revnumber: v1.0.0
 :toc: left
 
 ifndef::backend-pdf[]
@@ -56,15 +56,15 @@ The SeaLion mission shall adhere to CubeSat standards as per CDS Rev. 13
 
 
 
-=== 2.1: Secondary Mission Objective B1
+=== 1.5: Primary Mission Objective A5
 ****
-The SeaLion mission shall provide a means to validate an impedance probe in-orbit
+The SeaLion mission shall validate the operation of the Impedance Probe (IP) as a primary payload in-orbit.
 **** 
 
 
 
 
-=== 2.2: Secondary Mission Objective B2
+=== 2.1: Secondary Mission Objective B1
 ****
 The SeaLion mission shall provide a means to validate a V-Infrared Sensor (VIR-S) in-orbit
 **** 
@@ -72,7 +72,7 @@ The SeaLion mission shall provide a means to validate a V-Infrared Sensor (VIR-S
 
 
 
-=== 2.3: Secondary Mission Objective B3
+=== 2.2: Secondary Mission Objective B2
 ****
 The SeaLion mission shall provide a means to validate a deployable composite structure (DeCS) in-orbit
 **** 

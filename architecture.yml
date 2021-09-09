@@ -43,23 +43,23 @@ elements:
     name: Primary Mission Objective A4
     statement: The SeaLion mission shall adhere to CubeSat standards as per CDS Rev. 13
     derivedFrom: 0-References/2-CubeSat_Design_Specification_Rev._13.yml
-  1-StakeholderNeeds/2.1-Secondary_Mission_Objective-B1.yml: &ref_9
+  1-StakeholderNeeds/1.5-Primary_Mission_Objective-A5.yml: &ref_9
+    id: 1.5
+    name: Primary Mission Objective A5
+    statement: >-
+      The SeaLion mission shall validate the operation of the Impedance Probe
+      (IP) as a primary payload in-orbit.
+    derivedFrom: []
+  1-StakeholderNeeds/2.2-Secondary_Mission_Objective-B1.yml: &ref_10
     id: 2.1
     name: Secondary Mission Objective B1
-    statement: >-
-      The SeaLion mission shall provide a means to validate an impedance probe
-      in-orbit
-    derivedFrom: []
-  1-StakeholderNeeds/2.2-Secondary_Mission_Objective-B2.yml: &ref_10
-    id: 2.2
-    name: Secondary Mission Objective B2
     statement: >-
       The SeaLion mission shall provide a means to validate a V-Infrared Sensor
       (VIR-S) in-orbit
     derivedFrom: []
-  1-StakeholderNeeds/2.3-Secondary_Mission_Objective-B3.yml: &ref_11
-    id: 2.3
-    name: Secondary Mission Objective B3
+  1-StakeholderNeeds/2.3-Secondary_Mission_Objective-B2.yml: &ref_11
+    id: 2.2
+    name: Secondary Mission Objective B2
     statement: >-
       The SeaLion mission shall provide a means to validate a deployable
       composite structure (DeCS) in-orbit
@@ -98,7 +98,7 @@ elements:
       Virginia ground station
   4-Components/component.yaml: &ref_16
     name: sealion
-    version: 0.4.1
+    version: 1.0.0
     description: SeaLion Mission Concept of Operations (ConOps)
     license: MIT
     author: Sean Marquez <capsulecorplab@gmail.com> & contributors
@@ -134,7 +134,7 @@ elements:
     tools: {}
 package:
   name: sealion
-  version: 0.4.1
+  version: 1.0.0
   description: SeaLion Mission Concept of Operations (ConOps)
   keywords:
     - cubesat
