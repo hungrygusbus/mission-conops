@@ -1,0 +1,35 @@
+name: sealion
+version: 0.4.0
+description: SeaLion Mission Concept of Operations (ConOps)
+license: MIT
+author: Sean Marquez <capsulecorplab@gmail.com> & contributors
+repository: 'https://github.com/ODU-CGA-CubeSat/mission-conops.git'
+dependencies:
+  js-yaml: ^3.12.0
+  liquidjs: ^6.1.1
+  minimist: ^1.2.0
+components:
+  cubesat:
+    name: cubesat
+    version: 0.1.0
+    description: CubeSat
+    license: MIT
+    author: Kevin Chiu <kchiu002@odu.edu> & contributors
+    repository: 'https://github.com/ODU-CGA-CubeSat/mission-conops.git'
+    dependencies: {}
+    components: {}
+    parts: {}
+    tools: {}
+  ground-station:
+    name: ground-station
+    version: 0.1.0
+    description: Ground Station
+    license: MIT
+    author: Kevin Chiu <kchiu002@odu.edu> & contributors
+    repository: 'https://github.com/ODU-CGA-CubeSat/mission-conops.git'
+    dependencies: {}
+    components: {}
+    parts: {}
+    tools: {}
+parts: {}
+tools: {}
